@@ -10,6 +10,13 @@
 
 import urllib.request
 
+ip_list = ['39.137.69.6:80',
+           '212.64.51.13:8888',
+           '39.137.69.7:80',
+           '101.231.104.82:80',
+           '106.14.82.38:8080',
+           '36.25.243.50:80']
+
 url = 'http://www.whatismyip.com.tw'
 
 proxy_support = urllib.request.ProxyHandler({'http':'183.146.213.56:80'})
